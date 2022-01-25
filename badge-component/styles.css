@@ -1,0 +1,108 @@
+@import url(../../styles.css);
+
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+}
+/* .center {
+  display: grid;
+  place-content: center;
+} */
+.wrapper {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  background: var(--card-bg);
+  background: var(--gradient);
+  color: var(--color);
+}
+.wrapper p {
+  padding: 2rem;
+}
+.badge-text {
+  position: relative;
+  font-size: 2rem;
+}
+.badge {
+  position: absolute;
+  height: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #673ab7;
+  color: #fff;
+  margin-top: -1rem;
+  cursor: pointer;
+}
+.badge-text-2 {
+  position: relative;
+}
+.badge-2 {
+  margin-left: -1.5rem;
+  margin-top: -1rem;
+  font-size: 1.7rem;
+  height: 2rem;
+  width: 2rem;
+}
+.badge-action {
+  position: absolute;
+  background-color: #ffd740;
+  color: #000;
+  margin-left: 0rem;
+  margin-top: -1rem;
+  font-size: 1.7rem;
+}
+.badge-hide {
+  height: 1.6rem;
+  width: 1.6rem;
+  color: #fff;
+  background-color: #673ab7;
+  font-size: 1.4rem;
+}
+.badge-icon {
+  background-color: #f44336;
+  font-size: 1.4rem;
+  /* padding: 0.4rem; */
+}
+.btn {
+  height: 3.6rem;
+  width: 7.8rem;
+  background-color: #673ab7;
+  color: #fff;
+  padding: 0 1.6rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-left: 1rem;
+}
+.btn {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+  transition: all 400ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-hide {
+  background-color: #fff;
+  color: #000;
+  margin-left: 1rem;
+}
+.btn:active {
+  box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024,
+    0 3px 14px 2px #0000001f;
+}
+.hide {
+  padding: 1rem 0;
+}
+.btn-hide,
+.action {
+  cursor: pointer;
+}

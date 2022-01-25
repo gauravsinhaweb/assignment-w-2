@@ -1,0 +1,93 @@
+@import url(../../styles.css);
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  height: 100vh;
+  background: var(--card-bg);
+  background: var(--gradient);
+}
+main > button {
+  width: fit-content;
+  padding: 0.6rem;
+  background-color: #696969;
+  color: white;
+  border: thin solid #696969;
+  border-radius: 0.5rem;
+}
+main > h1 {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  background: var(--card-bg);
+  background: var(--gradient);
+  color: white;
+}
+
+.chips-wrapper {
+  padding: 0.5rem;
+  background-color: #e0e0e0;
+
+  width: 95vw;
+  border-radius: 1.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  background-color: #c6c6c6;
+  padding: 0.5rem 0.5rem 0.5rem 0.9rem;
+  border-radius: 1rem;
+  max-width: 90vw;
+  display: flex;
+  justify-content: center;
+
+  gap: 0.6rem;
+}
+.chip-name {
+  max-width: 75vw;
+  overflow-wrap: anywhere;
+}
+.chip-name {
+  word-wrap: break-word;
+}
+
+.chip:hover {
+  background-color: #bdbdbd;
+}
+
+.chip:hover button {
+  background-color: #696969;
+}
+
+.chip > button {
+  margin: 0 auto;
+  border: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  color: #c6c6c6;
+  background-color: #929292;
+  cursor: pointer;
+}
+#add-chip {
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+}
+#add-chip:focus {
+  border: none;
+  outline: none;
+}

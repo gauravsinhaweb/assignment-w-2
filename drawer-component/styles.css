@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Space+Mono&display=swap");
+@import url(../../styles.css);
+
+* {
+  margin: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: var(--card-bg);
+  background: var(--gradient);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.wrapper {
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  height: auto;
+  width: 25.5rem;
+  margin: 2rem;
+  margin-top: 10rem;
+  border-right: 1px solid #6666663f;
+}
+.head {
+  font-size: 2rem;
+  line-height: 1.4;
+  padding: 1.5rem 1.8rem;
+}
+
+.title {
+  font-weight: 500;
+}
+.sub-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.bottom {
+  font-size: 1.5rem;
+  padding: 0 0.8rem;
+  padding-bottom: 1.5rem;
+}
+.btn {
+  border-radius: 4px;
+  color: #666666;
+  padding: 0 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #66666615;
+}
+.btn-box {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+}
+.btn-active {
+  color: #6200ee;
+  background-color: #ede1fd;
+}
+.btn-active {
+  background-color: #ede1fd;
+}
+.btn-text {
+  width: 17rem;
+
+  text-align: left;
+  color: #000;
+}
+.btn-text-active {
+  color: #6200ee;
+  font-weight: 500;
+}
+svg {
+  height: 2.4rem;
+  width: 2.4rem;
+}

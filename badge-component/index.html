@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <p>
+        <span class="badge-text">Text with badge</span>
+        <span class="badge">4</span>
+      </p>
+
+      <p>
+        <span class="badge-text badge-text-2">Text with large badge</span>
+        <span class="badge badge-2">1</span>
+      </p>
+
+      <p>
+        <span class="badge-text badge-text-action"
+          >Button with a badge on the left</span
+        >
+        <span class="badge badge-2 badge-action">8</span>
+
+        <button class="btn action">Action</button>
+      </p>
+
+      <p class="hide">
+        <span class="badge-text badge-text-action"
+          >Button toggles badge visibility</span
+        >
+
+        <button class="btn action btn-hide">Hide</button>
+        <span class="badge badge-2 badge-hide">7</span>
+      </p>
+
+      <p>
+        <span class="badge-text badge-text-2">Icon with a badge</span>
+        <span class="icon-home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            class="iconify iconify--ic"
+            width="32"
+            height="32"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </span>
+
+        <span class="badge badge-2 badge-icon center">15</span>
+      </p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

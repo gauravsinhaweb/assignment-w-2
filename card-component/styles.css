@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Space+Mono&display=swap");
+@import url(../../styles.css);
+
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+}
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  gap: 30px;
+  padding: 1rem;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  background: var(--card-bg);
+  background: var(--gradient);
+  height: 100%;
+}
+.card {
+  background-color: #fff;
+
+  overflow: hidden;
+  object-fit: fill;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.top-h-i-t {
+  display: flex;
+}
+.img {
+  background: url("https://picsum.photos/400/200");
+  height: 196px;
+  width: auto;
+}
+
+.img-t-m {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: left;
+  text-align: left;
+  padding: 1.5rem;
+  color: #fff;
+  filter: grayscale(100%);
+}
+.img-h-i-t {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 110px;
+  padding: 0;
+  position: static;
+}
+.card-content {
+  padding: 16px;
+  padding-bottom: 0;
+}
+
+.card-content div {
+  padding: 0.5rem;
+}
+.card-h {
+  padding: 2rem;
+}
+.title {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.title-h-i-t {
+  padding: 1rem;
+}
+.sub-title {
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+.sub-title-t-m {
+  opacity: 1;
+}
+.content {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  opacity: 0.6;
+  text-align: justify;
+  line-height: 2rem;
+}
+.footer {
+  margin-top: 1rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.footer-o-i {
+  justify-content: flex-end;
+}
+.footer-h-i-t {
+  padding: 1rem;
+}
+.btn {
+  justify-content: space-between;
+  width: 15rem;
+}
+.btn-o-i {
+  display: none;
+}
+button {
+  font-size: 1.5rem;
+  color: #6200ee;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: none;
+  padding: 0.5rem;
+  font-weight: 500;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #cbe2f180;
+}
+.icons {
+  width: 14rem;
+  justify-content: space-evenly;
+}
+
+.icons-b-o-b {
+  display: none;
+}
+svg {
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+svg:hover {
+  background-color: #e6ecf0;
+}

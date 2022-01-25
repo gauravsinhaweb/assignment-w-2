@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Snackbar</title>
+  </head>
+  <body>
+    <div class="wrapper flex-center">
+      <div class="btns">
+        <button class="btn baseline">baseline</button>
+        <button class="btn leading">leading</button>
+        <button class="btn stacked">stacked</button>
+      </div>
+
+      <div class="snackbar flex-center">
+        <div class="sb-text">Can't send photo. Retry in 5 seconds.</div>
+        <div><button class="sb-retry">Retry</button></div>
+        <div><button class="sb-btn cross">x</button></div>
+      </div>
+
+      <div class="snackbar sb-leading flex-center">
+        <div class="sb-text">Your photo has been archived.</div>
+        <div><button class="sb-retry">undo</button></div>
+        <div><button class="sb-btn cross">x</button></div>
+      </div>
+
+      <div class="snackbar sb-stacked flex-center">
+        <div>
+          <div class="sb-text">
+            This item already has the label "travel". You can add a new label.
+          </div>
+        </div>
+        <div class="sb-stacked-btns">
+          <div><button class="sb-retry">add a new label</button></div>
+          <div><button class="sb-btn cross">x</button></div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

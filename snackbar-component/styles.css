@@ -1,0 +1,110 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  height: 100vh;
+}
+.btns {
+  gap: 2.4rem;
+  display: flex;
+  font-weight: 600;
+}
+.btn {
+  height: 3.6rem;
+  width: 10.1rem;
+  background-color: #6200ee;
+  border-radius: 0.4rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+  transition: all 400ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:active {
+  box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024,
+    0 3px 14px 2px #0000001f;
+}
+button {
+  border: none;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.snackbar {
+  position: absolute;
+  bottom: 0.6rem;
+  width: 35rem;
+  /* padding: 0 2rem; */
+  height: 4rem;
+  background-color: #333;
+  -webkit-box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%),
+    0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+    0 1px 18px 0 rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  color: hsla(0, 0%, 100%, 0.87);
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.sb-text {
+  min-width: 20rem;
+}
+.sb-btn {
+  background-color: transparent;
+  color: #eee;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sb-retry {
+  color: #bb86fc;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  /* margin-right: -2rem; */
+}
+.sb-retry:focus {
+  background-color: #6300ee3b;
+}
+
+.sb-leading {
+  width: 28rem;
+  left: 1rem;
+  padding: 0 1rem;
+}
+.sb-stacked {
+  padding: 1rem;
+  flex-direction: column;
+  height: auto;
+}
+.sb-stacked-btns {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.cross:hover {
+  background-color: rgba(255, 255, 255, 0.082);
+}
